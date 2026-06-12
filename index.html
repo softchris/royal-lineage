@@ -2839,13 +2839,13 @@
                 <div class="journey-status" id="journey-status" aria-live="polite"></div>
             </div>
             <div class="journey-tooltip" id="journey-tooltip" aria-live="polite"></div>
-            <button class="epoch-audio-btn" id="epoch-audio-btn" type="button" title="Click to enable epoch music" onclick="toggleEpochAudio()">♪̸</button>
-            <div class="epoch-track-label" id="epoch-track-label"></div>
         </div>
         <div class="mobile-events" id="mobile-events"></div>
     </section>
 
-    <!-- Fixed bottom nav (outside viewport stacking context) -->
+    <!-- Fixed elements (outside viewport stacking context) -->
+    <button class="epoch-audio-btn" id="epoch-audio-btn" type="button" title="Click to enable epoch music" onclick="toggleEpochAudio()">♪̸</button>
+    <div class="epoch-track-label" id="epoch-track-label"></div>
     <div class="tree-note" id="tree-note">Click any ancestor to zoom in, explore life events, and move through the bloodline without zooming back out</div>
     <div class="timeline-ruler" id="timeline-ruler">
         <div class="timeline-ruler-inner" id="timeline-ruler-inner">
@@ -3260,7 +3260,7 @@
                 crestUrl: '',
                 wikiUrl: '',
                 references: [],
-                drama: 'Born in Uppsala, that ancient city of bishops, scholars, and coronations — close enough to the Vasa story that the old kingdom still seems to breathe beneath the pavement.',
+                drama: 'Born in Vanvikan, a small coastal village in Trøndelag, Norway — a place of fjords, quiet harbours, and long northern light, where the Vasa bloodline quietly crossed the border.',
                 biography: `Öystein Stefan Noring was born in Vanvikan, a small coastal village in Trøndelag, Norway — a place of fjords, quiet harbours, and long northern light. Though the Vasa bloodline had wound through Swedish soil for centuries, in Öystein's chapter the story briefly crosses the border into Norway before returning. Fifteen generations after the liberator king, the bloodline was still moving, still restless, still reaching beyond familiar borders. Yet the Scandinavia Öystein inhabited was not the Scandinavia of dynastic rivalry. It was modern, democratic, technologically literate, and increasingly global.` + '\n\n' + `To live across the later twentieth century in Scandinavia was to watch these nations negotiate prosperity, reform, European integration, changing identities, and the slow transformation of everyday life through media and technology. In Öystein\'s chapter the chronicle comes close enough to the present that history ceases to feel legendary and becomes familial again. He is not a distant portrait in oil, but a living witness in whom five centuries remain audible.`,
                 biography_sv: `Öystein Stefan Noring föddes i Vanvikan, en liten kustby i Trøndelag, Norge — en plats av fjordar, stilla hamnar och långt nordligt ljus. Fastän Vasablodslinjen hade slingrat sig genom svensk jord i århundraden, korsar berättelsen i Öysteins kapitel för en stund gränsen till Norge innan den återvänder. Femton generationer efter befriarkungen rörde sig blodslinjen fortfarande, fortfarande rastlös, fortfarande sträckande sig bortom bekanta gränser. Men det Skandinavien Öystein levde i var inte dynastiska rivaliteters Skandinavien. Det var modernt, demokratiskt, tekniskt kunnigt och alltmer globalt.` + '\n\n' + `Att leva genom det sena nittonhundratalet i Skandinavien var att se dessa nationer förhandla om välstånd, reformer, europeisk integration, förändrade identiteter och den långsamma omvandlingen av vardagslivet genom media och teknik. I Öysteins kapitel kommer krönikan tillräckligt nära nutiden för att historien ska sluta kännas legendarisk och bli familjär igen. Han är inte ett avlägset porträtt i olja, utan ett levande vittne i vilket fem århundraden fortfarande är hörbara.`,
                 eraContext: `Late modern Scandinavia saw the maturation of the welfare state, new debates over identity and economy, and deep integration into an interconnected Europe. The Norwegian-Swedish border, once a line between rival kingdoms, had softened into a shared Nordic identity — and the Vasa bloodline quietly crossed it.`,
@@ -4013,16 +4013,16 @@
                     ],
                     "15": [
                                 {
-                                            "label": "Born in Uppsala",
-                                            "label_sv": "Född i Uppsala",
+                                            "label": "Born in Vanvikan",
+                                            "label_sv": "Född i Vanvikan",
                                             "year": 1952,
-                                            "desc": "Born in the ancient university city — close enough to the Vasa story that the old kingdom still breathes.",
-                                            "desc_sv": "Föds i den gamla universitetsstaden — tillräckligt nära Vasaberättelsen för att det gamla riket fortfarande ska andas.",
+                                            "desc": "Born in a small coastal village in Trøndelag, Norway — where the Vasa bloodline quietly crossed the border.",
+                                            "desc_sv": "Föds i en liten kustby i Trøndelag, Norge — där Vasablodslinjen stilla korsade gränsen.",
                                             "image": "",
                                             "longDesc": "Öystein Stefan Noring was born on 30 September 1952 in Vanvikan, a small coastal village in Trøndelag, Norway — a place of fjords, quiet harbours, and the long light of the Scandinavian north. Though the Vasa bloodline had wound through Swedish soil for centuries, in Öystein's chapter the story crosses the border into Norway.\n\nFifteen generations after the founder king, the bloodline was still moving, still restless. Yet the Scandinavia Öystein inhabited was not the Scandinavia of dynastic rivalry — it was modern, democratic, technologically literate, and increasingly global.",
                                             "longDesc_sv": "Öystein Stefan Noring föddes den 30 september 1952 i Vanvikan, en liten kustby i Trøndelag, Norge — en plats av fjordar, stilla hamnar och det skandinaviska nordens långa ljus. Fastän Vasablodslinjen hade slingrat sig genom svensk jord i århundraden, korsar berättelsen i Öysteins kapitel gränsen till Norge.\n\nFemton generationer efter rikets grundarkung rörde sig blodslinjen fortfarande, fortfarande rastlös. Men det Skandinavien som Öystein levde i var inte dynastiska rivaliteters Skandinavien — det var modernt, demokratiskt, tekniskt bildat och alltmer globalt.",
-                                            "context": "Uppsala, Sweden's ancient spiritual and intellectual capital, is where Swedish kings were crowned and buried for centuries — making Öystein's birth there a quietly symbolic detail.",
-                                            "context_sv": "Uppsala, Sveriges gamla andliga och intellektuella huvudstad, är den stad där svenska kungar i århundraden kröntes och begravdes — vilket gör Öysteins födelse där till en stilla symbolisk detalj."
+                                            "context": "Vanvikan is a small village in Trøndelag, central Norway, on the shores of the Trondheimsfjord — far from the Swedish court, yet connected by the unbroken thread of the Vasa bloodline crossing into Norway.",
+                                            "context_sv": "Vanvikan är en liten by i Trøndelag, centrala Norge, vid stranden av Trondheimsfjorden — långt från det svenska hovet, men förbunden genom den obrutna tråden av Vasablodslinjen som korsar gränsen till Norge."
                                 },
                                 {
                                             "label": "Sweden Joins EU",
